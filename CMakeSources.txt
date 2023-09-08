@@ -1,0 +1,79 @@
+
+
+set(flopocoDpiImplSvSources_conflictFree
+    sv_dpi_impl/FP_to_u32_sp_param_dpi.sv
+    sv_dpi_impl/FPAdd_sp_param_dpi.sv
+    sv_dpi_impl/FPComp_sp_param_dpi.sv
+    sv_dpi_impl/FPDiv_sp_param_dpi.sv
+    sv_dpi_impl/FPMul_sp_param_dpi.sv
+    sv_dpi_impl/FPSqrt_sp_param_dpi.sv
+    sv_dpi_impl/U32_to_FP_sp_param_dpi.sv
+)
+
+set(flopocoDpiImplCSources_conflictFree
+    sv_dpi_impl/float_sp_dpi_functions.cpp
+)
+
+set(flopocoSvImplSources_conflictFree
+    sv_impl/flopoco_to_ieee_sp.sv
+    sv_impl/fp_rv_classify_sp.sv
+    sv_impl/ieee_to_flopoco_sp.sv
+)
+
+set(flopocoVhdlImplSources_conflictFree
+    vhdl_impl/flopoco4/I32_to_FP_sp_param.sv
+    vhdl_impl/flopoco4/I32_to_FP_sp_0cyc.vhdl
+    vhdl_impl/flopoco4/I32_to_FP_sp_1cyc.vhdl
+    vhdl_impl/flopoco4/I32_to_FP_sp_6cyc.vhdl
+    vhdl_impl/flopoco4/U32_to_FP_sp_param.sv
+    vhdl_impl/flopoco4/U32_to_FP_sp_0cyc.vhdl
+    vhdl_impl/flopoco4/U32_to_FP_sp_1cyc.vhdl
+    vhdl_impl/flopoco4/U32_to_FP_sp_5cyc.vhdl
+    vhdl_impl/FP_to_i32_sp_param.sv
+    vhdl_impl/FP_to_i32_sp_0cyc.vhdl
+    vhdl_impl/FP_to_i32_sp_1cyc.vhdl
+    vhdl_impl/FP_to_i32_sp_6cyc.vhdl
+    vhdl_impl/FP_to_u32_sp_param.sv
+    vhdl_impl/FP_to_u32_sp_0cyc.vhdl
+    vhdl_impl/FP_to_u32_sp_1cyc.vhdl
+    vhdl_impl/FP_to_u32_sp_4cyc.vhdl
+    vhdl_impl/FPAdd_sp_param.sv
+    vhdl_impl/FPAdd_sp_0cyc.vhdl
+    vhdl_impl/FPAdd_sp_1cyc.vhdl
+    vhdl_impl/FPAdd_sp_2cyc.vhdl
+    vhdl_impl/FPAdd_sp_3cyc.vhdl
+    vhdl_impl/FPAdd_sp_4cyc.vhdl
+    vhdl_impl/FPAdd_sp_5cyc.vhdl
+    vhdl_impl/FPAdd_sp_6cyc.vhdl
+    vhdl_impl/FPAdd_sp_7cyc.vhdl
+    vhdl_impl/FPComp_sp_param.sv
+    vhdl_impl/FPComp_sp_0cyc.vhdl
+    vhdl_impl/FPComp_sp_1cyc.vhdl
+    vhdl_impl/FPDiv_sp_param.sv
+    vhdl_impl/FPDiv_sp_1cyc.vhdl
+    vhdl_impl/FPDiv_sp_2cyc.vhdl
+    vhdl_impl/FPDiv_sp_3cyc.vhdl
+    vhdl_impl/FPDiv_sp_4cyc.vhdl
+    vhdl_impl/FPDiv_sp_5cyc.vhdl
+    vhdl_impl/FPDiv_sp_6cyc.vhdl
+    vhdl_impl/FPDiv_sp_7cyc.vhdl
+    vhdl_impl/FPDiv_sp_8cyc.vhdl
+    vhdl_impl/FPDiv_sp_9cyc.vhdl
+    vhdl_impl/FPDiv_sp_10cyc.vhdl
+    vhdl_impl/FPDiv_sp_11cyc.vhdl
+    vhdl_impl/FPDiv_sp_12cyc.vhdl
+    vhdl_impl/FPMul_sp_param.sv
+    vhdl_impl/FPMul_sp_0cyc.vhdl
+    vhdl_impl/FPMul_sp_1cyc.vhdl
+    vhdl_impl/FPMul_sp_6cyc.vhdl
+    vhdl_impl/FPSqrt_sp_param.sv
+    vhdl_impl/FPSqrt_sp_1cyc.vhdl
+    vhdl_impl/FPSqrt_sp_2cyc.vhdl
+    vhdl_impl/FPSqrt_sp_3cyc.vhdl
+    vhdl_impl/FPSqrt_sp_4cyc.vhdl
+    vhdl_impl/FPSqrt_sp_5cyc.vhdl
+    vhdl_impl/FPSqrt_sp_6cyc.vhdl
+    vhdl_impl/FPSqrt_sp_7cyc.vhdl
+    vhdl_impl/FPSqrt_sp_8cyc.vhdl
+    vhdl_impl/FPSqrt_sp_16cyc.vhdl
+)
